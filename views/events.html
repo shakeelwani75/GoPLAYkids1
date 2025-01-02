@@ -1,0 +1,87 @@
+<!-- pricing.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Events-GoPLAYkids</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">More</a>
+                <div class="dropdown-content">
+                    <a href="/pricing">Pricing</a>
+                    <a href="/Events">Events</a>
+                    <a href="/Gallery">Gallery</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+   
+
+    <div class="event-details">
+        <h1>Event Title</h1>
+        <p>Date: January 20, 2025</p>
+        <p>Time: 6:00 PM</p>
+        <p>Location: Event Venue</p>
+        <p>Description: This is an amazing event!</p>
+    </div>
+    <div id="comments-section">
+        <h3>Comments</h3>
+        <textarea id="comment-input" placeholder="Write your comment..."></textarea>
+        <button onclick="postComment()">Post Comment</button>
+        <div id="comments"></div>
+    </div>
+    <script src="comments.js"></script>
+
+
+    <h1>Events</h1>
+    <p>Here is our Events for different play sessions:</p>
+
+  <!--table>
+        <tr>
+            <th>Session Type</th>
+            <th>Events</th>
+        </tr>
+        <tr>
+            <td>Weekday MorningEvents(9 AM - 12 PM)</td>
+            <td>£5 per child</td>
+        </tr>
+        <tr>
+            <td>Weekday Afternoon (1 PM - 4 PM)</td>
+            <td>£6 per child</td>
+        </tr>
+        <tr>
+            <td>Weekend All Day</td>
+            <td>£8 per child</td>
+        </tr>
+    </table>-->  
+
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/YourProfile" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/YourProfile" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/YourProfile" target="_blank"><img src="instagram-icon.png"
+                    alt="Instagram"></a>
+            <!-- Add more links as needed -->
+    
+            <p>© Copyright 2025 GoPLAYkids</p>
+        </div>
+    
+    
+    </footer>
+    <button onclick="goBack()">Go Back</button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

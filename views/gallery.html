@@ -1,0 +1,98 @@
+<!-- pricing.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallery - GoPLAYkids</title>
+
+       
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">More</a>
+                <div class="dropdown-content">
+                    <a href="/pricing">Pricing</a>
+                    <a href="/Events">Events</a>
+                    <a href="#">Gallery</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <h1>Gallery</h1>
+    <p>Here  different play sessions photo galleres:</p>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    
+        .gallery-item {
+            flex: 1 1 calc(33.333% - 10px);
+            box-sizing: border-box;
+        }
+    
+        .gallery-item img {
+            width: 50%;
+            height: auto;
+        }
+    </style>
+    
+    
+    
+    <div class="gallery">
+        <div class="gallery-item"><img src="../images/shafaqpic1.jpg" alt="Image 1"></div>
+        <div class="gallery-item"><img src="../images/shafiqpic.jpg" alt="Image 2"></div>
+        <div class="gallery-item"><img src="../images/shafiqpic.png" alt="Image 3"></div>
+        <!-- Add more items as needed -->
+    </div>
+
+   <!--<table>
+        <tr>
+            <th>Session Type</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Weekday Morning (9 AM - 12 PM)</td>
+            <td>£5 per child</td>
+        </tr>
+        <tr>
+            <td>Weekday Afternoon (1 PM - 4 PM)</td>
+            <td>£6 per child</td>
+        </tr>
+        <tr>
+            <td>Weekend All Day</td>
+            <td>£8 per child</td>
+        </tr>
+    </table>--> 
+
+    
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/YourProfile" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com/YourProfile" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/YourProfile" target="_blank"><img src="instagram-icon.png"
+                    alt="Instagram"></a>
+            <!-- Add more links as needed -->
+    
+            <p>© Copyright 2025 GoPLAYkids</p>
+        </div>
+    
+    
+    </footer>
+
+    <button onclick="goBack()">Go Back</button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
